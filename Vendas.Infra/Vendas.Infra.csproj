@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vendas.Domain\Vendas.Domain.csproj" />
+    <ProjectReference Include="..\VendasApplication\Vendas.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Gateways\" />
+  </ItemGroup>
+
+</Project>
